@@ -19,9 +19,9 @@ void main() {
         ),
         bottomNavigationBar: Row(
           children: [
-            Text("Botão 1"),
-            Text("Botão 2"),
-            Text("Botão 3")
+            ElevatedButton(child: Text("Botão 1"), onPressed: () => print("Botao 1")),
+            ElevatedButton(child: Text("Botão 2"), onPressed: () => print("Botao 2")),
+            ElevatedButton(child: Text("Botão 3"), onPressed: () => print("Botao 3"))
           ]),
       ));
   
