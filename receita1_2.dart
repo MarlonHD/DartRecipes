@@ -9,7 +9,7 @@ void main() {
         fontFamily: GoogleFonts.oswald().fontFamily,
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text("Meu app")),
+        appBar: AppBar(title: Text("Cervejas")),
         body: DataTable(
             columns: const <DataColumn>[
               DataColumn(label: Text("Nome")),
