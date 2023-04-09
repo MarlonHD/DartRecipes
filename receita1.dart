@@ -21,7 +21,7 @@ void main() {
           children: [
             ElevatedButton(child: Text("Botão 1"), onPressed: () => print("Botao 1")),
             ElevatedButton(child: Text("Botão 2"), onPressed: () => print("Botao 2")),
-            ElevatedButton(child: Text("Botão 3"), onPressed: () => print("Botao 3"))
+            IconButton(icon: const Icon(Icons.bluetooth), iconSize: 30, onPressed: () => print("bluetooth on"))
           ]),
       ));
   
