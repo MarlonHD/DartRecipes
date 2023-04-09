@@ -9,7 +9,10 @@ void main() {
           child: Column(
             children: [
               Text("Apenas começando..."),
-              Text("No meio..."),
+              Text("No meio...", style: TextStyle(
+                  color: Colors.green,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 40)),
               Text("Terminando...")              
             ]
           )          
