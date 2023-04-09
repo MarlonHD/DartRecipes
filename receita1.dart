@@ -19,9 +19,12 @@ void main() {
         ),
         bottomNavigationBar: Row(
           children: [
-            ElevatedButton(child: Text("Botão 1"), onPressed: () => print("Botao 1")),
-            ElevatedButton(child: Text("Botão 2"), onPressed: () => print("Botao 2")),
-            IconButton(icon: const Icon(Icons.bluetooth), iconSize: 30, onPressed: () => print("bluetooth on"))
+            Expanded(
+              child: ElevatedButton(child: Text("Botão 1"), onPressed: () => print("Botao 1"))),
+            Expanded(
+              child: ElevatedButton(child: Text("Botão 2"), onPressed: () => print("Botao 2"))),
+            Expanded(
+              child: IconButton(icon: const Icon(Icons.bluetooth), iconSize: 30, onPressed: () => print("bluetooth on")))
           ]),
       ));
   
